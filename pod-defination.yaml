@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myimage
+  labels:
+    name: tomcat
+    tier: front-end
+spec:
+  containers:
+  - name: myimage
+    image: myimage
